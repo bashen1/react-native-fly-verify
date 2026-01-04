@@ -1,6 +1,6 @@
 {
   "name": "react-native-fly-verify",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "秒验SDK",
   "main": "src/index.tsx",
   "scripts": {
