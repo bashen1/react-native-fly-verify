@@ -16,7 +16,7 @@ iOS SDK Version: 13.7.8
 
 ### 2.1 Android
 
-* build.gradle
+打开`android/app/build.gradle`文件，配置以下内容
 
   ```sh
   android {
