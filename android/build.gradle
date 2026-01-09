@@ -127,7 +127,9 @@ def kotlin_version = getExtOrDefault('kotlinVersion')
 
 dependencies {
   // noinspection GradleDynamicVersion
-  implementation fileTree(dir: 'libs', include: ['*.aar', '*.jar'])
   api 'com.facebook.react:react-native:+'
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+  implementation(name: 'FlyCore-2025.1105.1219', ext: 'aar')
+  implementation(name: 'FlyIDS-2025.1105.1219', ext: 'aar')
+  implementation(name: 'FlyVerify-13.7.3', ext: 'aar')
 }
